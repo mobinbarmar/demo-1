@@ -1,0 +1,78 @@
+.card-img-top{
+    height: 350px;
+    background-color: #F7F6F6;
+}
+.badge{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.alert-info{
+    background-color: #68A8FF;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 50px;
+}
+.alert-warning{
+    background-color:#FFC44D ;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 50px;
+}
+.alert-danger{
+    background-color:#FF5757 ;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 50px;
+}
+.card{
+    border: none;
+}
+img{
+    transition: .2s ease-in-out;
+}
+.buy{
+    background-color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    transition: .2s ease-in-out;
+    z-index: 0 !important;
+}
+.card-body{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.round-btn{
+    border-radius: 50px;
+    padding: 5px 30px 5px 30px;
+}
+.btn-primary:hover{
+    background-color: #0167F3;
+    cursor:auto ;
+}
+.card2{
+    width: 450px;
+    position: relative;
+}
+.img{
+    position: relative;
+}
+.shadow{
+    background-color: rgba(0, 0, 0, 0.637);
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 45%;
+    transition: .2s ease-in-out;
+    border-radius: 0 5px 5px 0;
+}
+.cart-img{
+    position: absolute;
+    z-index: 2;
+    top: 40%;
+    right: 22%;
+}

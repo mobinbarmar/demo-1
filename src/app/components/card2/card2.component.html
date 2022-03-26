@@ -1,0 +1,39 @@
+<!-- <div class="card d-flex flex-row" style="width: 18rem;" dir="rtl" (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeave()">
+    <div class="card-img-top d-flex justify-content-center align-items-center">
+        <img [src]="img" width="200" alt="Card image cap" [style.transform]="'scale('+scale+')'">
+    </div>
+
+    
+    <div class="card-body">
+        <h5 class="card-title">{{ title }}</h5>
+        <div dir="ltr" class="d-flex">
+            <span class="">تومان</span>
+            <p class="card-text px-2">{{ price }}</p>
+        </div>
+    </div>
+
+    <span class="badge alert-info" [hidden]="!new">جدید</span>
+    <span class="badge alert-warning" [hidden]="!discount">تخفیف 30%</span>
+    <span class="badge alert-danger" [hidden]="!hot">داغ!</span>
+</div> -->
+
+<div class="d-flex justify-content-end py-5 card2 rounded" (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeave()">
+    <div class="d-flex justify-content-center align-items-center flex-column px-4">
+        <h5 class="card-title">{{ title }}</h5>
+        <button dir="ltr" class="d-flex btn btn-primary round-btn mt-3 btn-sm">
+            <span class="">تومان</span>
+            <span class="card-text px-2">{{ price }}</span>
+        </button>
+    </div>
+
+    <span class="shadow"  [style.transform]="'scale('+scale+')'"></span>
+    <img class="cart-img"  [style.transform]="'scale('+scale+')'" src="../../../assets/img/123 (2).png" width="50" height="50">
+
+    <div class="d-flex justify-content-center align-items-center mx-5 img">
+        <img [src]="img" width="150" alt="Card image cap">
+    </div>
+
+    <span class="badge alert-info" [hidden]="!new">جدید</span>
+    <span class="badge alert-warning" [hidden]="!discount">تخفیف 30%</span>
+    <span class="badge alert-danger" [hidden]="!hot">داغ!</span>
+</div>
