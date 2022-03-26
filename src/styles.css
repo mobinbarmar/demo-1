@@ -1,1 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
+.btn-primary-gray{
+    background-color: #0167F3;
+    color: white;
+}
+.btn-primary-gray:hover{
+    background-color:#707070 ;
+    border-color: #707070;
+    transition: 0.5s;
+    color: white;
+}
+
+.btn-primary-gold{
+    background-color: #0167F3;
+    color: white;
+}
+.btn-primary-gold:hover{
+    background-color:#D2B558 ;
+    border-color: #D2B558;
+    transition: 0.5s;
+    color: white;
+}
+
+.btn-secondary-gold{
+    background-color: #707070;
+    color: white;
+}
+.btn-secondary-gold:hover{
+    background-color:#D2B558 ;
+    border-color: #D2B558;
+    transition: 0.5s;
+    color: white;
+}
+
+.btn-secondary-blue{
+    background-color: #707070;
+    color: white;
+}
+.btn-secondary-blue:hover{
+    background-color:#0167F3 ;
+    border-color: #0167F3;
+    transition: 0.5s;
+    color: white;
+}
+
+.btn-secondary{
+    background-color: #707070;
+    color: white;
+}
+
+.btn-primary{
+    background-color: #0167F3;
+    color: white;
+}
