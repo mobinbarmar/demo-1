@@ -1,0 +1,26 @@
+<div class="card" style="width: 18rem;" dir="rtl" (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeave()">
+    <div class="card-img-top d-flex justify-content-center align-items-center">
+        <img [src]="img" width="200" alt="Card image cap" [style.transform]="'scale('+scale+')'">
+    </div>
+
+    <div class="d-flex justify-content-between align-items-center px-4 px-3 py-2 buy" [style.top]="buy">
+        <img src="../../../assets/img/heart.png" alt="heart" width="20" height="20">
+
+        <div class="d-flex align-items-center" >
+            <h6 class="mx-2">خرید</h6>
+            <img src="../../../assets/img/shopping-cart.png" alt="heart" width="20" height="20">
+        </div>
+    </div>
+    
+    <div class="card-body">
+        <h5 class="card-title">پرینتر برند Brother</h5>
+        <div dir="ltr" class="d-flex">
+            <span class="">تومان</span>
+            <p class="card-text px-2">3.500</p>
+        </div>
+    </div>
+
+    <span class="badge alert-info" [hidden]="!new">جدید</span>
+    <span class="badge alert-warning" [hidden]="!discount">تخفیف 30%</span>
+    <span class="badge alert-danger" [hidden]="!hot">داغ!</span>
+</div>

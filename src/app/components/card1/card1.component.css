@@ -1,0 +1,46 @@
+.card-img-top{
+    height: 350px;
+    background-color: #F7F6F6;
+}
+.badge{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.alert-info{
+    background-color: #68A8FF;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 50px;
+}
+.alert-warning{
+    background-color:#FFC44D ;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 50px;
+}
+.alert-danger{
+    background-color:#FF5757 ;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 50px;
+}
+.card{
+    border: none;
+}
+img{
+    transition: .2s ease-in-out;
+}
+.buy{
+    background-color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    transition: .2s ease-in-out;
+    z-index: 0 !important;
+}
+.card-body{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}

@@ -11,6 +11,7 @@ import { MainPageComponent } from './pages/main-page/main-page.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { Card1Component } from './components/card1/card1.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FooterComponent } from './components/footer/footer.component';
     MainPageComponent,
     ProductsComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    Card1Component
   ],
   imports: [
     BrowserModule,
