@@ -1,23 +1,23 @@
 <footer class="footer">
     <div class="footer-up py-5">
         <div class="d-flex justify-content-between container ">
-            <div class="d-flex flex-column align-items-center">
-                <img src="../../../assets/img/shield-check.png" width="120">
+            <div class="d-flex flex-column align-items-center" (mouseenter)="healthyEnter()" (mouseleave)="healthyLeave()">
+                <img src="../../../assets/img/shield-check.png" width="120" [style.transform]="'scale('+healthy+')'">
                 <span>تضمین سلامت</span>
             </div>
         
-            <div class="d-flex flex-column align-items-center">
-                <img src="../../../assets/img/at.png" width="120">
+            <div class="d-flex flex-column align-items-center" (mouseenter)="contactEnter()" (mouseleave)="contactLeave()">
+                <img src="../../../assets/img/at.png" width="120" [style.transform]="'scale('+contact+')'">
                 <span>ارتباطات قوی</span>
             </div>
         
-            <div class="d-flex flex-column align-items-center">
-                <img src="../../../assets/img/bell-ring.png" width="120">
+            <div class="d-flex flex-column align-items-center" (mouseenter)="readyEnter()" (mouseleave)="readyLeave()">
+                <img src="../../../assets/img/bell-ring.png" width="120" [style.transform]="'scale('+ready+')'">
                 <span>همیشه آماده</span>
             </div>
         
-            <div class="d-flex flex-column align-items-center">
-                <img src="../../../assets/img/world.png" width="120">
+            <div class="d-flex flex-column align-items-center" (mouseenter)="worldEnter()" (mouseleave)="worldLeave()">
+                <img src="../../../assets/img/world.png" width="120" [style.transform]="'scale('+world+')'">
                 <span>در سرتاسر جهان</span>
             </div>
         </div>

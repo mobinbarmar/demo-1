@@ -5,3 +5,6 @@ span{
     padding-top: 30px;
     font-size: 25px;
 }
+img{
+    transition: .2s ease-in-out;
+}
