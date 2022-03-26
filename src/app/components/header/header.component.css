@@ -35,3 +35,10 @@
 .reactive-header{
     transition: .75s ease-in-out;
 }
+.header-down a{
+    padding: 22px 20px 22px 20px;
+}
+.header-down a:hover{
+    background-color: #D2B558;
+    transition: .15s ease-in-out;
+}

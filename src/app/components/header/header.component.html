@@ -1,4 +1,4 @@
-<div (mouseleave)="headUp()">
+<header (mouseleave)="headUp()">
     <div class="py-3 d-flex justify-content-between align-items-center container reactive-header" [style.marginTop]="headHigh">
         <div class="d-flex user-contact justify-content-between align-items-center">
             <img src="../../../assets/img/headset.png" class="png">
@@ -24,16 +24,15 @@
         <div><img src="../../../assets/img/Logo.png" class="logo"></div>
     </div>
     
-    <div class="bg-black text-white" (mouseenter)="headDown()">
-        <div class="container py-3 px-5 d-flex justify-content-around">
+    <div class="bg-black text-white header-down" (mouseenter)="headDown()">
+        <div class="container  px-5 d-flex justify-content-around align-items-center">
             <div><button></button></div>
         
             <a>سبد خرید</a>
-        
             <a>درباره ما</a>
             <a>پیشنهادات ویژه</a>
             <a>صفحه اصلی</a>
             <a>دسته بندی ها</a>
         </div>
     </div>
-</div>
+</header>
