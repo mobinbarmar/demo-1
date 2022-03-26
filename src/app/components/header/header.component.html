@@ -1,0 +1,39 @@
+<div (mouseleave)="headUp()">
+    <div class="py-3 d-flex justify-content-between align-items-center container reactive-header" [style.marginTop]="headHigh">
+        <div class="d-flex user-contact justify-content-between align-items-center">
+            <img src="../../../assets/img/headset.png" class="png">
+    
+            <div class="d-flex align-items-center">
+                <div class="d-flex flex-column align-items-center mx-2">
+                    <span class="user">مبین برمر</span>
+                    <span class="credit">اعتبار: 100</span>
+                </div>
+    
+                <img src="../../../assets/img/person.png" class="png">
+            </div>
+        </div>
+        
+        <div class="d-flex search">
+            <button class="bg-black search-btn"><img src="../../../assets/img/search2.png" width="20"></button>
+    
+            <input type="search" class="form-control">
+    
+            <button class="btn cate">تمام دسته ها</button>
+        </div>
+    
+        <div><img src="../../../assets/img/Logo.png" class="logo"></div>
+    </div>
+    
+    <div class="bg-black text-white" (mouseenter)="headDown()">
+        <div class="container py-3 px-5 d-flex justify-content-around">
+            <div><button></button></div>
+        
+            <a>سبد خرید</a>
+        
+            <a>درباره ما</a>
+            <a>پیشنهادات ویژه</a>
+            <a>صفحه اصلی</a>
+            <a>دسته بندی ها</a>
+        </div>
+    </div>
+</div>

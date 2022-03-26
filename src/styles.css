@@ -74,3 +74,18 @@
     background-color: #0167F3;
     color: white;
 }
+
+.btn-black{
+    background-color: #081828;
+    color: white;
+}
+.btn-black:hover{
+    background-color:#D2B558 ;
+    border-color: #D2B558;
+    transition: 0.5s;
+    color: white;
+}
+
+.bg-black{
+    background-color: #081828;
+}
