@@ -6,3 +6,7 @@
 .sepetator{
     padding: 200px 0 200px 0;
 }
+section{
+    background-color: #7070700a;
+    margin: 0 !important;
+}
