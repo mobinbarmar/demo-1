@@ -1,0 +1,19 @@
+.Main {
+    background-color: #081821;
+    height: 20%;
+}
+
+.Mainpic{
+  width: 200px;
+  height: hv;
+}
+
+.font{
+    direction: rtl;
+    color: #e8e8e8;
+}
+
+.font-black{
+  direction: rtl;
+  color: #1d1d1d;
+}
