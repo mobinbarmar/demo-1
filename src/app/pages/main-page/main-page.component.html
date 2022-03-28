@@ -1,25 +1,91 @@
 <app-header></app-header>
 <section>
-    <div class="my-5">
-        <div class="d-flex justify-content-center">
-            <h2>محصولات پرطرفدار</h2>
-        </div>
-        
-        <div class="d-flex justify-content-center mt-4">
-            <a class="btn btn-black mx-2" >اداری</a>
-            <a class="btn btn-black mx-2" >شخصی</a>
-            <a class="btn btn-black mx-2" >پرطرفدار</a>
-            <a class="btn btn-black mx-2" >جدید</a>
+    <div class="bg-white">
+        <div class="d-flex justify-content-between p-5 container">
+            
+            <div class="d-flex position-relative flex-column">
+                <span class="c-1"></span>
+                <span class="c-2"></span>
+                <img src="../../../assets/img/30-printer-png-image.png"
+                        style="z-index: 2;width: 350px; height: 350px;
+                        margin: 50px 100px; transform: rotate(20deg);">
+                
+                <div>
+                    <span class="next-pre shadow mx-3">
+                        <img src="../../../assets/img/left.png" width="20px" height="20px">
+                    </span>
+    
+                    <span class="next-pre shadow">
+                        <img src="../../../assets/img/right.png" width="20px" height="20px">
+                    </span>
+                </div>
+            </div>
+            <div class="d-flex align-items-end flex-column">
+                <h1 class="fw-bolder display-1">XEROX</h1>
+                <h3 class="fw-bolder display-4 mt-3 mb-4"><span class="text-primary">قوی</span>، بزرگ و منحصر بفرد</h3>
+                <p style="width: 500px;" class="" dir="rtl"> پرینتر ایکس مدل بی قابلیت های اداری فراوانی دارد. این پرینتر می تواند در دقیقه 37 پرینت رنگی از محتوای مدنظر شما بگیرد پرینتر ایکس مدل بی قابلیت های اداری فراوانی دارد. این پرینتر می تواند در دقیقه 37 پرینت رنگی از محتوای مدنظر شما بگیرد و آنها را چاپ کند. این متن لورم ایپسوم است</p>
+                <button class="btn btn-primary-gold btn-lg rounded-0 mt-3"
+                        style="width: 150px; height: 55px;">!بخرید</button>
+            </div>
         </div>
     </div>
-    
-    <div class="container d-flex justify-content-between align-items-start www flex-wrap">
-        <app-card1 [discount]="true" class="mb-5"></app-card1>
-        <app-card1></app-card1>
-        <app-card1 [new]="true"></app-card1>
-        <app-card1></app-card1>
-        <app-card1 [hot]="true" [title]="'مبین'"></app-card1>
-        <app-card1></app-card1>
+
+    <div class="mt-5 d-flex justify-content-around">
+        <div class="col-3 bg-white position-relative bottom-header d-flex flex-column align-items-end overflow-hidden p-4">
+            <h3 class="display-3 fw-bolder text-primary">راحت</h3>
+            <h5 style="margin-right: 100px;" class="mt-3 mb-5">!کلیک کن</h5>
+
+            <div>
+                <p style="border-bottom: 2px dotted black;">خرید</p>
+            </div>
+            <img src="../../../assets/img/kisspng-computer-mouse-logitech-unifying-receiver-wireless-comfortable-sleep-5ade714f8d1161.4665338815245274395778.png" alt="">
+        </div>
+
+        <div class="col-3 bg-white position-relative bottom-header d-flex flex-column align-items-end overflow-hidden">
+            <h3 class="display-3 fw-bolder text-primary">راحت</h3>
+            <h5 style="margin-right: 100px;" class="mt-3 mb-5">!کلیک کن</h5>
+
+            <div>
+                <p style="border-bottom: 2px dotted black;">خرید</p>
+            </div>
+            <img src="../../../assets/img/kisspng-computer-mouse-logitech-unifying-receiver-wireless-comfortable-sleep-5ade714f8d1161.4665338815245274395778.png" alt="">
+        </div>
+
+        <div class="col-3 bg-white position-relative bottom-header d-flex flex-column align-items-end overflow-hidden">
+            <h3 class="display-3 fw-bolder text-primary">راحت</h3>
+            <h5 style="margin-right: 100px;" class="mt-3 mb-5">!کلیک کن</h5>
+
+            <div>
+                <p style="border-bottom: 2px dotted black;">خرید</p>
+            </div>
+            <img src="../../../assets/img/kisspng-computer-mouse-logitech-unifying-receiver-wireless-comfortable-sleep-5ade714f8d1161.4665338815245274395778.png" alt="">
+        </div>
+    </div>
+
+
+    <div style="margin: 150px ;">
+        <div>
+            <div class="d-flex justify-content-center flex-column align-items-center">
+                <h2 class="fw-bold">محصولات پرطرفدار</h2>
+                <span class="hr my-3"></span>
+            </div>
+            
+            <div class="d-flex justify-content-center mt-4">
+                <a class="btn btn-black mx-2" >اداری</a>
+                <a class="btn btn-black mx-2" >شخصی</a>
+                <a class="btn btn-black mx-2" >پرطرفدار</a>
+                <a class="btn btn-black mx-2" >جدید</a>
+            </div>
+        </div>
+        
+        <div class="container d-flex justify-content-between align-items-start www flex-wrap">
+            <app-card1 [discount]="true" class="mb-5"></app-card1>
+            <app-card1></app-card1>
+            <app-card1 [new]="true"></app-card1>
+            <app-card1></app-card1>
+            <app-card1 [hot]="true" [title]="'مبین'"></app-card1>
+            <app-card1></app-card1>
+        </div>
     </div>
     
     <div class="sepetator text-center text-white bg-black">
@@ -27,14 +93,29 @@
         <p class="my-5">با پوشش حداکثری تمام برندهای محبوب و پرطرفدار ایران</p>
         <a class="btn btn-primary-gold btn-lg">!خرید را آغاز کنید</a>
     </div>
+
+
+    <div style="margin: 150px;">
+        <div class="d-flex justify-content-end container mt-5">
+            <div class="col-3" style="margin-right: 16%;">
+                <h3>بیشترین فروش</h3>
+                <span class="hr2 mt-4 d-flex flex-column align-items-center"></span>
+            </div>
     
-    <div class="container d-flex justify-content-between www flex-wrap">
-        <app-card2 [discount]="true" class="mb-5"></app-card2>
-        <app-card2></app-card2>
-        <app-card2 [new]="true" class="mb-5"></app-card2>
-        <app-card2 [hot]="true"></app-card2>
-        <app-card2 [title]="'مبین'" class="mb-5"></app-card2>
-        <app-card2></app-card2>
+            <div class="col-3 ">
+                <h3>بیشترین بازدید</h3>
+                <span class="hr2 mt-4 d-flex flex-column align-items-center"></span>
+            </div>
+        </div>
+        
+        <div class="container d-flex justify-content-between www flex-wrap">
+            <app-card2 [discount]="true" class="mb-5"></app-card2>
+            <app-card2></app-card2>
+            <app-card2 [new]="true" class="mb-5"></app-card2>
+            <app-card2 [hot]="true"></app-card2>
+            <app-card2 [title]="'مبین'" class="mb-5"></app-card2>
+            <app-card2></app-card2>
+        </div>
     </div>
 </section>
 
