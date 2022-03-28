@@ -1,0 +1,35 @@
+.Main {
+  background-color: #081821;
+  height: 20%;
+}
+
+.Mainpic{
+width: 357px;
+height: 476px;
+border-radius: 5px;
+}
+
+.font{
+  direction: rtl;
+  color: #e8e8e8;
+}
+
+.font-black{
+direction: rtl;
+color: #1d1d1d;
+}
+
+.borderR{
+  border-radius: 5px;
+}
+
+.bg-blue{
+  background-color: #0167f3;
+}
+
+.PerspectiveDiv{
+  position: absolute;
+  -webkit-transform: rotateX(30deg); /* Safari */
+  transform: rotateX(30deg); /* Standard syntax */
+}
+
