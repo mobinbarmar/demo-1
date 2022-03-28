@@ -18,3 +18,23 @@
   color: #1d1d1d;
 }
 
+.Opacity{
+  opacity: 75%;
+}
+
+.PerspectiveDiv{
+  position: absolute;
+
+}
+
+.Mainpic{
+  width: 300px;
+  height: 350px;
+  background-color: #0167f3;
+  transform: rotate(10deg);
+  border-radius: 5px;
+  }
+
+  .MainRelative{
+    position: relative;
+  }
