@@ -4,8 +4,10 @@
 }
 
 .Mainpic{
-width: 357px;
-height: 476px;
+width: 340px;
+height: 200px;
+background-color: #0167f3;
+transform: rotate(30deg);
 border-radius: 5px;
 }
 
@@ -29,7 +31,23 @@ color: #1d1d1d;
 
 .PerspectiveDiv{
   position: absolute;
-  -webkit-transform: rotateX(30deg); /* Safari */
-  transform: rotateX(30deg); /* Standard syntax */
+
 }
+
+.MainRelative{
+  position: relative;
+}
+
+.Opacity{
+  opacity: 75%;
+}
+
+.ExpInput{
+  height: 100px;
+}
+
+.MainDiv{
+  height: 450px;
+}
+
 
