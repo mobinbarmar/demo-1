@@ -4,10 +4,10 @@
 }
 
 .Mainpic{
-width: 340px;
-height: 200px;
+width: 300px;
+height: 350px;
 background-color: #0167f3;
-transform: rotate(30deg);
+transform: rotate(15deg);
 border-radius: 5px;
 }
 
