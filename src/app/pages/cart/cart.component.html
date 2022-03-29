@@ -1,1 +1,37 @@
-<p>cart works!</p>
+<div>
+    <div>
+        <div class="header">
+            <h1>سبد خرید</h1>
+            <br>
+            <p>تجربه بی نظیر از خرید اینترنتی با بهترین خدمات پس از فروش </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div>
+            <div class="d-flex justify-content-between">
+                <h1>کالا</h1>
+                <h1>تعداد</h1>
+                <h1>قیمت</h1>
+            </div>
+        </div>
+        <hr>
+        <div *ngFor="let information of informations" class=" d-flex justify-content-between">
+            <div>
+                <h2>{{information.title}}</h2>
+                <p>{{information.description }}</p>
+            </div>
+
+            <select class="form-select" aria-label="Default select example">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <div>
+                <h3>{{ information.price }}</h3>
+            </div>
+        </div>
+
+    </div>
+</div>

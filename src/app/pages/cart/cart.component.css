@@ -1,0 +1,8 @@
+.header{
+    height: 170px;
+    background-color: black;
+    color: white;
+    direction: rtl;
+     padding-top: 20px;
+    padding-right: 40px;
+}
