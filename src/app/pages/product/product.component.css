@@ -1,0 +1,34 @@
+.BorderR{
+  border-radius: 5px;
+}
+
+.RelateFont{
+  font-weight: 900;
+}
+
+.HRBlue{
+  position: absolute;
+  width: 150px;
+  height: 2px;
+  direction: rtl;
+  color: #0167f3;
+  left: 81%;
+
+}
+
+.next-pre{
+  position: absolute;
+  background-color: white;
+  padding: 11px 15px 15px 15px;
+  border-radius: 50%;
+  border: 1px solid rgb(185, 185, 185);
+}
+
+.LeftArrow{
+  top: 25%;
+}
+
+.RightArrow{
+  top: 25%;
+  left: 87%;
+}
