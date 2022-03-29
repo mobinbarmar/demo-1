@@ -6,6 +6,10 @@
   font-weight: 900;
 }
 
+.FontWeight{
+  font-weight: 600;
+}
+
 .HRBlue{
   position: absolute;
   width: 150px;
@@ -13,6 +17,16 @@
   direction: rtl;
   color: #0167f3;
   left: 81%;
+
+}
+
+.HRBlue01{
+  position: absolute;
+  width: 85px;
+  height: 2px;
+  direction: rtl;
+  color: #0167f3;
+  left: 85%;
 
 }
 
@@ -31,4 +45,9 @@
 .RightArrow{
   top: 25%;
   left: 87%;
+}
+
+.MidBtn{
+  width: 100px;
+  height: 40px;
 }
