@@ -7,7 +7,7 @@
         </div>
     </div>
 
-    <div class=" page container">
+    <div class=" page container" [hidden]="!flag">
         <div>
             <div class="d-flex justify-content-between">
                 <h1>کالا</h1>
@@ -33,6 +33,20 @@
                 <h3>{{ information.price }}</h3>
             </div>
         </div>
-
+        <hr>
+        <div class="input">
+            <label for=""> کد تخفیف : </label>
+            <input type="text">
+        </div>
+        <p class="total"> جمع:3785000</p>
+        
+        <div class="buten d-flex justify-content-around col-2 ">
+            <button class=" btn btn-secondary-red mx-3">بازگشت</button>
+            <button class="btn btn-primary" (click)="product()">ادامه</button>
+        </div>
     </div>
+</div>
+<div [hidden]="flag">
+    <h1>hiiiii</h1>
+
 </div>
