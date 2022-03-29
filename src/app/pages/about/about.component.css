@@ -39,10 +39,6 @@
   border-radius: 5px;
   }
 
-  .MainRelative{
-    position: relative;
-  }
-
   .triangle{
     width: 400px;
     height: 200px;
@@ -51,6 +47,6 @@
     z-index: -1;
     position: absolute;
     transform: rotate(15deg);
-    top: 30%;
-    right: 4%;
+    top: 50px;
+    right: -200px;
   }
