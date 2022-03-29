@@ -20,13 +20,21 @@
 .total{
     margin-right: 1200px;
  }
- .input{
-     margin-right: 500px;
+ .discount{
     width: 900px;
     height: 90px;
 }
+#total-price{
+    margin-right: 500px;
+}
+#ltotal-price{
+    margin-right: 400px;
+}
 .buten{
-    margin-top: 30px;
+    margin-top: 20px;
     margin-right: 1050px;
     margin-bottom: 30px;
+}
+.b{
+    margin-right: 500px;
 }
