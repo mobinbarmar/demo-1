@@ -13,6 +13,10 @@
     color: #e8e8e8;
 }
 
+.BorderR{
+  border-radius: 5px;
+}
+
 .font-black{
   direction: rtl;
   color: #1d1d1d;
@@ -37,4 +41,16 @@
 
   .MainRelative{
     position: relative;
+  }
+
+  .triangle{
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: #0167f3;
+    z-index: -1;
+    position: absolute;
+    transform: rotate(15deg);
+    top: 30%;
+    right: 4%;
   }
