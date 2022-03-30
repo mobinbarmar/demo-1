@@ -125,12 +125,14 @@
 }
 
 .LeftArrow{
-  top: 25%;
+  top: 30%;
+  left: 90px;
 }
 
 .RightArrow{
-  top: 25%;
-  left: 87%;
+  top: 30%;
+  right: 90px;
+
 }
 
 .MidBtn{
