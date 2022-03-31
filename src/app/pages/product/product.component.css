@@ -1,4 +1,143 @@
 .image{
-    width:200px;
-    height: 280px;
+    width:300px;
+    height: 300px;
+}
+.BlueColor{
+  color: #0167f3;
+}
+
+.WhiteColor{
+  color: rgb(255, 255, 255);
+}
+
+.GrayColor{
+  background-color : rgb(131, 131, 131);
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  border: 1px;
+}
+
+.GoldColor{
+  background-color : rgba(255, 199, 78, 0.897);
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  border: 1px;
+}
+
+.ArrowCount{
+  transform: rotate(90deg);
+  position: absolute;
+
+}
+
+.CountDiv{
+  width: 80px;
+  height: 60px;
+  background-color : rgba(240, 239, 239, 0.897);
+  border-radius: 5px;
+
+}
+
+.Sellbtn{
+  width: 300px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: #0167f3;
+}
+
+.Cartbtn{
+  border-radius: 50%;
+  background-color: #b4cbeb;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  overflow: hidden;
+  right: 55%;
+  top: 71%;
+}
+
+.Dot{
+  border-radius: 50%;
+  background-color: #505050;
+  width: 10px;
+  height: 10px;
+}
+
+.Opacity{
+  opacity: 80%;
+}
+
+.BorderR{
+  border-radius: 5px;
+}
+
+.RelateFont{
+  font-weight: 900;
+}
+
+.FontWeight01{
+  font-weight: 700;
+}
+
+.FontWeight{
+  font-weight: 600;
+}
+
+
+/* .HRBlue{
+  position: absolute;
+  width: 150px;
+  height: 2px;
+  direction: rtl;
+  color: #0167f3;
+  left: 81%;
+
+} */
+
+.HRBlue{
+  width: 150px;
+  height: 2px;
+  background-color: #0167f3;
+  position: absolute;
+}
+
+.HRBlue01{
+  width: 130px;
+  height: 2px;
+  background-color: #0167f3;
+  position: absolute;
+}
+
+.HRBlue01{
+  position: absolute;
+  width: 85px;
+  height: 2px;
+  direction: rtl;
+  color: #0167f3;
+  left: 85%;
+
+}
+
+.next-pre{
+  position: absolute;
+  background-color: white;
+  padding: 11px 15px 15px 15px;
+  border-radius: 50%;
+  border: 1px solid rgb(185, 185, 185);
+}
+
+.LeftArrow{
+  top: 25%;
+}
+
+.RightArrow{
+  top: 25%;
+  left: 87%;
+}
+
+.MidBtn{
+  width: 100px;
+  height: 40px;
 }
