@@ -1,0 +1,52 @@
+.Main {
+    background-color: #081821;
+    height: 20%;
+}
+
+.Mainpic{
+  width: 200px;
+  height: hv;
+}
+
+.font{
+    direction: rtl;
+    color: #e8e8e8;
+}
+
+.BorderR{
+  border-radius: 5px;
+}
+
+.font-black{
+  direction: rtl;
+  color: #1d1d1d;
+}
+
+.Opacity{
+  opacity: 75%;
+}
+
+.PerspectiveDiv{
+  position: absolute;
+
+}
+
+.Mainpic{
+  width: 300px;
+  height: 350px;
+  background-color: #0167f3;
+  transform: rotate(10deg);
+  border-radius: 5px;
+  }
+
+  .triangle{
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: #0167f3;
+    z-index: -1;
+    position: absolute;
+    transform: rotate(15deg);
+    top: 50px;
+    right: -200px;
+  }

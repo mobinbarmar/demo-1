@@ -1,0 +1,45 @@
+.Main {
+  background-color: #081821;
+  height: 20%;
+}
+
+
+.font{
+  direction: rtl;
+  color: #e8e8e8;
+}
+
+.font-black{
+direction: rtl;
+color: #1d1d1d;
+}
+
+.borderR{
+  border-radius: 5px;
+}
+
+.bg-blue{
+  background-color: #0167f3;
+}
+
+.Opacity{
+  opacity: 75%;
+}
+
+.ExpInput{
+  height: 100px;
+}
+
+.MainDiv{
+  height: 450px;
+}
+
+.triangle{
+  width: 300px;
+  height: 350px;
+  background-color: #0167f3;
+  z-index: -1;
+  position: absolute;
+  transform: rotate(15deg);
+  top: 0;
+}
