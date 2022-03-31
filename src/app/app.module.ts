@@ -14,6 +14,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { Card1Component } from './components/card1/card1.component';
 import { Card2Component } from './components/card2/card2.component';
 import { CommentsComponent } from './pages/comments/comments.component';
+import { GoUpComponent } from './components/go-up/go-up.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { CommentsComponent } from './pages/comments/comments.component';
     FooterComponent,
     Card1Component,
     Card2Component,
-    CommentsComponent
+    CommentsComponent,
+    GoUpComponent
   ],
   imports: [
     BrowserModule,

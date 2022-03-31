@@ -33,7 +33,7 @@
     width: 500px;
 }
 .reactive-header{
-    transition: .75s ease-in-out;
+    transition: .3s ease-in-out;
 }
 .header-down a{
     padding: 22px 20px 22px 20px;
@@ -41,4 +41,9 @@
 .header-down a:hover{
     background-color: #0167F3;
     transition: .15s ease-in-out;
+}
+a:visited, a:link{
+    text-decoration: none;
+    color: white;
+
 }

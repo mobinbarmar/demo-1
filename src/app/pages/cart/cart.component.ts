@@ -1,3 +1,4 @@
+import { Location } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { Product } from 'src/app/model/interface/product';
 
@@ -8,7 +9,7 @@ import { Product } from 'src/app/model/interface/product';
 })
 export class CartComponent implements OnInit {
 
-  constructor() { }
+  constructor(private _location: Location) { }
 
   ngOnInit(): void {
   }
@@ -32,6 +33,11 @@ export class CartComponent implements OnInit {
   ]
   product(){
     this.flag = false;
+  }
+
+
+  back(){
+    this._location.back()
   }
 
 }

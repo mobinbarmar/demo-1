@@ -28,11 +28,11 @@
         <div class="container  px-5 d-flex justify-content-around align-items-center">
 
         
-            <a>سبد خرید</a>
-            <a>درباره ما</a>
-            <a>پیشنهادات ویژه</a>
-            <a>صفحه اصلی</a>
-            <a>دسته بندی ها</a>
+            <a [routerLink]="['/about']">درباره ما</a>
+            <a [routerLink]="['/contact']">تماس با ما</a>
+            <a [routerLink]="['/cart']">سبد خرید</a>
+            <a [routerLink]="['/products']">دسته بندی ها</a>
+            <a [routerLink]="['/']">صفحه اصلی</a>
         </div>
     </div>
 </header>

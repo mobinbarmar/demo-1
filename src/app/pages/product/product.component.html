@@ -1,6 +1,6 @@
 
 <!-- Mahdi's Code -->
-
+<app-header></app-header>
 <!-- Product -->
 <div class="d-flex position-relative">
   <div class="Absul Address">
@@ -173,8 +173,7 @@
            <div class="d-flex justify-content-center mx-2">
 
              <select class="form-select" style="height: 61px; margin-top: 15px;" aria-label="Default select example">
-              <option selected>تعداد</option>
-              <option value="1">1</option>
+              <option selected>1</option>
               <option value="2">2</option>
               <option value="3">3</option>
             </select>
@@ -182,22 +181,24 @@
 
            <div>
 
-              <button class="d-flex btn btn-primary-gold position-relative my-3 px-4" style="border: none;">
+              <button class="d-flex btn btn-primary-gold position-relative my-3 px-4" style="border: none;" (click)="addToCart()">
 
                   <div class="" style="margin-right: 50px; margin-top: 7px;">
                     <p>افزودن به سبد خرید</p>
                   </div>
 
+                  
                   <span class="Cartbtn" style="margin-top: 5px;">
-
+                    
                   </span>
 
                   <img style="margin-top: 5px;" class="d-flex align-items-center Pic" src="../../../assets/img/White_Cart.png" width="20px" height="20px" alt="">
-
-
-
-
-              </button>
+                  
+                  
+                  
+                  
+                </button>
+                
            </div>
 
         </div>
@@ -207,8 +208,12 @@
     </div>
 
   </section>
+  
 
 </div>
+
+
+
 
 <!-- Relative Products -->
 <section class="container border BorderR">
@@ -387,3 +392,6 @@
   </div>
 </section>
 
+<span class="alert alert-success" style="position: sticky; bottom: 50px; left: 40%;" [hidden]="successfulAdded">به سبد خرید افزوده شد! <a [routerLink]="['/cart']">مشاهده سبد خرید</a></span>
+<app-go-up></app-go-up>
+<app-footer></app-footer>

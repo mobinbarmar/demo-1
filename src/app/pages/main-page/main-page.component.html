@@ -25,7 +25,7 @@
                 <h3 class="fw-bolder display-4 mt-3 mb-4"><span class="text-primary">قوی</span>، بزرگ و منحصر بفرد</h3>
                 <p style="width: 500px;" class="" dir="rtl"> پرینتر ایکس مدل بی قابلیت های اداری فراوانی دارد. این پرینتر می تواند در دقیقه 37 پرینت رنگی از محتوای مدنظر شما بگیرد پرینتر ایکس مدل بی قابلیت های اداری فراوانی دارد. این پرینتر می تواند در دقیقه 37 پرینت رنگی از محتوای مدنظر شما بگیرد و آنها را چاپ کند. این متن لورم ایپسوم است</p>
                 <button class="btn btn-primary-gold btn-lg rounded-0 mt-3"
-                        style="width: 150px; height: 55px;">!بخرید</button>
+                        style="width: 150px; height: 55px;" [routerLink]="['/products']">!بخرید</button>
             </div>
         </div>
     </div>
@@ -79,12 +79,12 @@
         </div>
         
         <div class="container d-flex justify-content-between align-items-start www flex-wrap">
-            <app-card1 [discount]="true" class="mb-5"></app-card1>
-            <app-card1></app-card1>
-            <app-card1 [new]="true"></app-card1>
-            <app-card1></app-card1>
-            <app-card1 [hot]="true" [title]="'مبین'"></app-card1>
-            <app-card1></app-card1>
+            <app-card1 [discount]="true" class="mb-5" [routerLink]="['/product']"></app-card1>
+            <app-card1 [routerLink]="['/product']"></app-card1>
+            <app-card1 [new]="true" [routerLink]="['/product']"></app-card1>
+            <app-card1 [routerLink]="['/product']"></app-card1>
+            <app-card1 [hot]="true" [routerLink]="['/product']"></app-card1>
+            <app-card1 [routerLink]="['/product']"></app-card1>
         </div>
     </div>
     
@@ -109,14 +109,14 @@
         </div>
         
         <div class="container d-flex justify-content-between www flex-wrap">
-            <app-card2 [discount]="true" class="mb-5"></app-card2>
-            <app-card2></app-card2>
-            <app-card2 [new]="true" class="mb-5"></app-card2>
-            <app-card2 [hot]="true"></app-card2>
-            <app-card2 [title]="'مبین'" class="mb-5"></app-card2>
-            <app-card2></app-card2>
+            <app-card2 [discount]="true" class="mb-5" [routerLink]="['/product']"></app-card2>
+            <app-card2 [routerLink]="['/product']"></app-card2>
+            <app-card2 [new]="true" class="mb-5" [routerLink]="['/product']"></app-card2>
+            <app-card2 [hot]="true" [routerLink]="['/product']"></app-card2>
+            <app-card2 class="mb-5" [routerLink]="['/product']"></app-card2>
+            <app-card2 [routerLink]="['/product/#top']"></app-card2>
         </div>
     </div>
 </section>
-
+<app-go-up></app-go-up>
 <app-footer></app-footer>
