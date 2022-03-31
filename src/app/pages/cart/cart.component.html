@@ -1,1 +1,56 @@
-<p>cart works!</p>
+<div>
+    <div>
+        <div class="header">
+            <h1>سبد خرید</h1>
+            <br>
+            <p>تجربه بی نظیر از خرید اینترنتی با بهترین خدمات پس از فروش </p>
+        </div>
+    </div>
+
+    <div class=" page container" [hidden]="!flag">
+        <div>
+            <div class="d-flex justify-content-between">
+                <h3>کالا</h3>
+                <h3>تعداد</h3>
+                <h3>قیمت</h3>
+            </div>
+        </div>
+        <hr>
+        <div *ngFor="let information of informations" class=" d-flex justify-content-between">
+            <div>
+                <h2>{{information.title}}</h2>
+                <p>{{information.description }}</p>
+                <img class="image" [src]="information.url" alt="">
+            </div>
+
+            <select id="input" class="form-select" aria-label="Default select example">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <div>
+                <h3>{{ information.price }}</h3>
+            </div>
+        </div>
+        <hr>
+        <div class="discount">
+            <div class="b">
+                <label  for=""> کد تخفیف : </label>
+                <input type="text">
+            </div>
+            <p class="total"> جمع:3785000</p>
+        </div>
+        
+        <div class="buten d-flex justify-content-around col-2 ">
+            <button class=" btn btn-secondary-red mx-3">بازگشت</button>
+            <button class="btn btn-primary" (click)="product()">ادامه</button>
+        </div>
+    </div>
+</div>
+<div [hidden]="flag">
+    <img class="shopping" src="../.../../../../assets/img/30-printer-png-image.png" alt="">
+    <h4>!سبد خرید شما خالی است </h4>
+    <p>می توانید برای مشاهده محصولات بیشتر به صفحات زیر بروید </p>
+
+</div>
