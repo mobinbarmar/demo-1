@@ -1,0 +1,44 @@
+.Absul{
+  position: absolute;
+  top: 130px;
+  right: 18px;
+}
+
+.Address{
+  top: 15px;
+  right: 7%;
+}
+
+.Bluebtn{
+  width: 60px;
+  height: 60px;
+  background-color: #0167f3;
+  border-radius: 5px;
+}
+
+.whiteBtn{
+  z-index: 1;
+  width: 25px;
+  height: 25px;
+}
+
+.BorderR{
+  border-radius: 5px;
+}
+
+.BtnCom{
+  width: 120px;
+  height: 40px;
+}
+
+.LittleFont{
+  font-size: 14px;
+}
+
+.WeightFont{
+  font-weight: 600;
+}
+
+.Overflow{
+  overflow: auto;
+}

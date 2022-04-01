@@ -54,8 +54,8 @@
   height: 150px;
   position: absolute;
   overflow: hidden;
-  right: 55%;
-  top: 71%;
+  right: -90px;
+  top: -50px;
 }
 
 .Dot{
@@ -129,15 +129,53 @@
 }
 
 .LeftArrow{
-  top: 25%;
+  top: 30%;
+  left: 90px;
 }
 
 .RightArrow{
-  top: 25%;
-  left: 87%;
+  top: 30%;
+  right: 90px;
+
 }
 
 .MidBtn{
   width: 100px;
   height: 40px;
+}
+
+
+.Bluebtn{
+  width: 60px;
+  height: 60px;
+  background-color: #0167f3;
+  border-radius: 5px;
+}
+
+.whiteBtn{
+  z-index: 1;
+  width: 25px;
+  height: 25px;
+}
+
+button{
+  overflow: hidden;
+  border: none;
+}
+
+.Absul{
+  position: absolute;
+  top: 130px;
+  right: 18px;
+}
+
+.Address{
+  top: 15px;
+  right: 7%;
+}
+
+.Pic{
+  position: absolute;
+  top: 15px;
+  z-index: 2;
 }
