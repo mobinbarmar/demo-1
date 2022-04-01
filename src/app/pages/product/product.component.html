@@ -20,11 +20,12 @@
     <button class="d-flex btn btn-primary  justify-content-center align-items-center Bluebtn my-2">
       <img class="whiteBtn" src="../../../assets/img/w-shield-check.png"  alt="">
     </button>
-    <button class="d-flex btn btn-primary  justify-content-center align-items-center Bluebtn">
+    <button class="d-flex btn btn-primary  justify-content-center align-items-center Bluebtn" [class]="commentsColor" (click)="commentShow()">
       <img class="whiteBtn" src="../../../assets/img/w-comment.png"  alt="">
     </button>
   </div>
-  <section class="container border p-3 BorderR">
+
+  <section class="container border p-3 BorderR" [hidden]="!commentsFlag">
 
     <div class="d-flex col-12  flex-row-reverse">
 
@@ -209,6 +210,286 @@
 
   </section>
   
+  <section class="container  border p-3 BorderR" [hidden]="commentsFlag">
+    <!-- Points -->
+    <div class="" dir="rtl">
+
+    </div>
+    <!-- Comments -->
+    <div class="col-8" dir="rtl">
+      <div class="d-flex col-12 justify-content-around align-items-center">
+        <div>
+          <img src="../../../assets/img/filter2.png" width="25px" alt="">
+        </div>
+        <div class="d-flex align-items-center">
+          <h6>جدیدترین</h6>
+        </div>
+        <div class="d-flex align-items-center">
+          <h6>قدیمی ترین</h6>
+        </div>
+
+        <div class="d-flex align-items-center">
+          <h6>بیشترین بازدید</h6>
+        </div>
+
+        <div class="d-flex justify-content-between">
+          <div class="d-flex">
+            <button class="d-flex justify-content-center align-items-center btn btn-primary p-3 BtnCom">
+                  ثبت نظر
+            </button>
+
+          </div>
+
+          <div class="d-flex mx-3">
+            <button class="d-flex justify-content-center align-items-center btn btn-secondary-red BtnCom p-3" (click)="commentShow()">
+                بازگشت
+            </button>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 p-3 mx-3" data-spy = "scroll" data-target = "#navbar-example" data-offset = "0"
+      style = "height:500px; overflow:auto; position: relative;">
+        <div class="border rounded my-2">
+          <div class="d-flex justify-content-between">
+
+            <div class="d-flex p-2">
+              <div class="WeightFont">
+                 <h6>
+                    محمد محمدی
+                 </h6>
+              </div>
+
+              <div class="mx-2 LittleFont">
+                <p> از مشهد </p>
+              </div>
+
+            </div>
+
+            <div  class="d-flex p-2 ">
+              <div>
+                <img src="../../../assets/img/star.png" width="25px" height="25px" alt="">
+              </div>
+              <div>
+                <img src="../../../assets/img/star.png" width="25px" height="25px" alt="">
+              </div>
+              <div>
+                <img src="../../../assets/img/star.png" width="25px" height="25px" alt="">
+              </div>
+              <div>
+                <img src="../../../assets/img/star.png" width="25px" height="25px" alt="">
+              </div>
+              <div>
+                <img src="../../../assets/img/star.png" width="25px" height="25px" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex p-2">
+            <h6>
+              محصول خوب و قابل قبولی بود من که کاملا راضی هستم
+            </h6>
+          </div>
+
+          <div class="my-5"></div>
+
+
+
+        </div>
+
+        <div class="border rounded my-2">
+          <div class="d-flex justify-content-between">
+
+            <div class="d-flex p-2">
+              <div class="WeightFont">
+                 <h6>
+                    محمد محمدی
+                 </h6>
+              </div>
+
+              <div class="mx-2 LittleFont">
+                <p> از مشهد </p>
+              </div>
+
+            </div>
+
+            <div  class="d-flex p-2">
+              <div>
+                <img src="../../../assets/img/star.png" width="25px" height="25px" alt="">
+              </div>
+              <div>
+                <img src="../../../assets/img/star.png" width="25px" height="25px" alt="">
+              </div>
+              <div>
+                <img src="../../../assets/img/star.png" width="25px" height="25px" alt="">
+              </div>
+              <div>
+                <img src="../../../assets/img/star.png" width="25px" height="25px" alt="">
+              </div>
+              <div>
+                <img src="../../../assets/img/star.png" width="25px" height="25px" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex p-2">
+            <h6>
+              محصول خوب و قابل قبولی بود من که کاملا راضی هستم
+            </h6>
+          </div>
+
+          <div class="my-5"></div>
+
+
+
+        </div>
+
+        <div class="border rounded my-2">
+          <div class="d-flex justify-content-between">
+
+            <div class="d-flex p-2">
+              <div class="WeightFont">
+                 <h6>
+                    محمد محمدی
+                 </h6>
+              </div>
+
+              <div class="mx-2 LittleFont">
+                <p> از مشهد </p>
+              </div>
+
+            </div>
+
+            <div  class="d-flex p-2">
+              <div>
+                <img src="../../../assets/img/star.png" width="25px" height="25px" alt="">
+              </div>
+              <div>
+                <img src="../../../assets/img/star.png" width="25px" height="25px" alt="">
+              </div>
+              <div>
+                <img src="../../../assets/img/star.png" width="25px" height="25px" alt="">
+              </div>
+              <div>
+                <img src="../../../assets/img/star.png" width="25px" height="25px" alt="">
+              </div>
+              <div>
+                <img src="../../../assets/img/star.png" width="25px" height="25px" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex p-2">
+            <h6>
+              محصول خوب و قابل قبولی بود من که کاملا راضی هستم
+            </h6>
+          </div>
+
+          <div class="my-5"></div>
+
+
+
+        </div>
+
+        <div class="border rounded my-2">
+          <div class="d-flex justify-content-between">
+
+            <div class="d-flex p-2">
+              <div class="WeightFont">
+                 <h6>
+                    محمد محمدی
+                 </h6>
+              </div>
+
+              <div class="mx-2 LittleFont">
+                <p> از مشهد </p>
+              </div>
+
+            </div>
+
+            <div  class="d-flex p-2">
+              <div>
+                <img src="../../../assets/img/star.png" width="25px" height="25px" alt="">
+              </div>
+              <div>
+                <img src="../../../assets/img/star.png" width="25px" height="25px" alt="">
+              </div>
+              <div>
+                <img src="../../../assets/img/star.png" width="25px" height="25px" alt="">
+              </div>
+              <div>
+                <img src="../../../assets/img/star.png" width="25px" height="25px" alt="">
+              </div>
+              <div>
+                <img src="../../../assets/img/star.png" width="25px" height="25px" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex p-2">
+            <h6>
+              محصول خوب و قابل قبولی بود من که کاملا راضی هستم
+            </h6>
+          </div>
+
+          <div class="my-5"></div>
+
+
+
+        </div>
+
+        <div class="border rounded my-2">
+          <div class="d-flex justify-content-between">
+
+            <div class="d-flex p-2">
+              <div class="WeightFont">
+                 <h6>
+                    محمد محمدی
+                 </h6>
+              </div>
+
+              <div class="mx-2 LittleFont">
+                <p> از مشهد </p>
+              </div>
+
+            </div>
+
+            <div  class="d-flex p-2">
+              <div>
+                <img src="../../../assets/img/star.png" width="25px" height="25px" alt="">
+              </div>
+              <div>
+                <img src="../../../assets/img/star.png" width="25px" height="25px" alt="">
+              </div>
+              <div>
+                <img src="../../../assets/img/star.png" width="25px" height="25px" alt="">
+              </div>
+              <div>
+                <img src="../../../assets/img/star.png" width="25px" height="25px" alt="">
+              </div>
+              <div>
+                <img src="../../../assets/img/star.png" width="25px" height="25px" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex p-2">
+            <h6>
+              محصول خوب و قابل قبولی بود من که کاملا راضی هستم
+            </h6>
+          </div>
+
+          <div class="my-5"></div>
+
+
+
+        </div>
+      </div>
+
+    </div>
+
+  </section>
 
 </div>
 
@@ -300,13 +581,10 @@
   <div class="d-flex row"  dir="rtl">
     <ul class="nav nav-pills">
       <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">معرفی</a>
+        <a style="cursor: pointer;" [class]="desClass" (click)="openDes()"class="nav-link" >معرفی</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">مشخصات</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">توضیحات</a>
+        <a style="cursor: pointer;" [class]="featureClass" (click)="openFeature()" class="nav-link" >مشخصات</a>
       </li>
     </ul>
     <hr class="">
@@ -314,27 +592,28 @@
 </section>
 
 <!-- Exp Product -->
-<section class="container border BorderR mt-2">
+<section class="container border BorderR mt-2" [hidden]="flag">
   <div class="column p-4">
     <div dir="rtl">
-      <h4 class="RelateFont">Herman نقد فریزر برند</h4>
+      <h4 class="RelateFont mt-3">Herman نقد فریزر برند</h4>
     </div>
 
     <div class="d-flex justify-content-center mt-5">
       <img src="../../../assets/img/ref01.png" width="800px" height="100%" alt="">
     </div>
 
-    <div class="d-flex justify-content-center" dir="rtl">
-      <h5 class="mt-5">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.
-      </h5>
+    <div class="" dir="rtl">
+      <p class="mt-5 mx-5">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.
+      </p>
+      <p class="mx-5">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.
+      </p>
     </div>
   </div>
 </section>
 
-<hr class="container mt-5">
 <!-- Information Section -->
 
-<section class="container  border BorderR">
+<section class="container  border BorderR" [hidden]="!flag">
   <div class=" p-4">
 
     <div class="" dir="rtl">

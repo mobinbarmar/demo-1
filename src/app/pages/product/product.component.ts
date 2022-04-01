@@ -26,4 +26,30 @@ export class ProductComponent implements OnInit {
     }, 3000);
   }
 
+  flag:boolean = false
+  desClass:string = 'active'
+  featureClass:string = ''
+  commentsFlag:boolean = true
+  commentsColor:string = ''
+
+  openDes(){
+    this.flag = false
+    this.desClass = 'active'
+    this.featureClass = ''
+  }
+
+  openFeature(){
+    this.flag = true;
+    this.featureClass = 'active'
+    this.desClass = ''
+  }
+
+  commentShow(){
+    this.commentsFlag = !this.commentsFlag
+    if(this.commentsColor == ''){
+      this.commentsColor = 'commentColor'
+    }else{
+      this.commentsColor = ''
+    }
+  }
 }

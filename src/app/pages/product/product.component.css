@@ -175,3 +175,7 @@ button{
   top: 15px;
   z-index: 2;
 }
+
+.commentColor{
+  background-color: #505050;
+}

@@ -7,7 +7,7 @@
         </div>
     </div>
 
-    <div class=" page container" [hidden]="!flag">
+    <div class=" page container mt-4" [hidden]="!flag">
         <div>
             <div class="d-flex justify-content-between">
                 <h3>کالا</h3>
@@ -17,33 +17,39 @@
         </div>
         <hr>
         <div *ngFor="let information of informations" class=" d-flex justify-content-between">
-            <div>
-                <h2>{{information.title}}</h2>
-                <p>{{information.description }}</p>
-                <img class="image" [src]="information.url" alt="">
+            <div class="mt-2 col-1 d-flex align-items-center">
+                <img class="image" [src]="information.url" style="width: 50px;height: 50px;">
+                <div class="mx-3">
+                    <h4 style="width: 200px;">{{information.title}}</h4>
+                    <p>{{information.description }}</p>
+                </div>
             </div>
 
-            <select id="input" class="form-select" aria-label="Default select example">
-                <option value="0">0</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-            </select>
-            <div>
+            <div class="d-flex align-items-center">
+                <select id="input" class="form-select" style="height: 50px;" aria-label="Default select example">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+
+
+            <div class="d-flex align-items-center">
                 <h3>{{ information.price }}</h3>
             </div>
         </div>
         <hr>
-        <div class="discount">
-            <div class="b">
+        <div class="d-flex justify-content-end">
+            <div class="col-6">
                 <label  for=""> کد تخفیف : </label>
-                <input type="text">
+                <input type="text" class="mx-3">
             </div>
-            <p class="total"> جمع:3785000</p>
+            <p >جمع: 3785000</p>
         </div>
         
-        <div class="buten d-flex justify-content-around col-2 ">
-            <button class="btn btn-primary" (click)="product()">ادامه</button>
+        <div class="d-flex justify-content-end mt-3" style="margin-left: -20px;">
+            <button class="btn btn-primary" >ادامه</button>
             <button class=" btn btn-secondary-red mx-3" (click)="back()">بازگشت</button>
         </div>
     </div>
