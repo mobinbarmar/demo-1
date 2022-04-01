@@ -41,5 +41,5 @@ color: #1d1d1d;
   z-index: -1;
   position: absolute;
   transform: rotate(15deg);
-  top: 0;
+  top: 100px;
 }
